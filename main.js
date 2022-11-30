@@ -1,7 +1,7 @@
 let nombre = prompt("Ingerse su nombre de usuario: ");
 console.log(nombre);
 
-let pronostico = prompt("Ingrese su pronostico: ");
+let pronostico = prompt("Ingrese su pronostico (Gana Argentina, Gana Mexico, Empatan Argentina vs Mexico): ");
 if (pronostico == "Gana Argentina") {
     alert ("Sumas 3 puntos");
 }else if (pronostico == "Gana Mexico") {
